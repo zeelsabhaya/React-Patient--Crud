@@ -1,0 +1,73 @@
+.img,
+.img img {
+    width: 100px;
+    height: 100px;
+}
+
+.p-tage {
+    font-size: 11px;
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+    .img,
+    .img img {
+        width: 82px !important;
+        height: 77px !important;
+    }
+
+    .patient-img {
+        flex-direction: column;
+    }
+
+    .card-title .patient-img {
+        align-items: center !important;
+    }
+
+    .card-title .p-id {
+        margin: 20px 0px !important;
+    }
+
+    .card-title .bts {
+        padding: 3px 6px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .col {
+        width: 50% !important;
+    }
+    .card-title .bts {
+        padding: 8px 25px !important;
+    }
+    .card-title .all-bts {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 536px) {
+    .col {
+        width: 100% !important;
+    }
+
+    .patient-img {
+        flex-direction: column;
+    }
+
+    .card-title .patient-img {
+        align-items: center !important;
+    }
+
+    .card-title .p-id {
+        margin: 10px 0px !important;
+    }
+
+    .card-title .bts {
+        padding: 8px 25px !important;
+    }
+
+    .card-title .all-bts {
+        display: block !important;
+    }
+}
